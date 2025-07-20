@@ -24,7 +24,7 @@ const Featured = () => {
                 w-4.5 h-4.5'/>
                 </button>
             </div>
-            <div className='flex flex-wrap max-sm:justify-center mt-8 gap-6'>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 {dummyShowsData.slice(0, 4).map((show)=>(
                     <Moviecard key={show._id} movie={show}/>
                 ))}
