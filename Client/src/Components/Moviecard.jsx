@@ -11,7 +11,7 @@ const Moviecard = ({ movie }) => {
     return (
         <div className='flex flex-col justify-between p-3 bg-gray-800 rounded-2xl
         hover:-translate-y-1 transition duration-300 w-full max-w-[280px]'>
-            
+
             {/* Movie backdrop image, navigates to movie details on click */}
             <img
                 onClick={() => {
